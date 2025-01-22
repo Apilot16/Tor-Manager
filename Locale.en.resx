@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorGlobal" xml:space="preserve">
+    <value>Error: {0}
+Type: {1}
+Message: {2}
+Challenging Flax: {3}</value>
+  </data>
+  <data name="TorRunning" xml:space="preserve">
+    <value>Tor is already running.</value>
+  </data>
+  <data name="NotFoundFileTor" xml:space="preserve">
+    <value>File along the path "{0}" was not found</value>
+  </data>
+  <data name="TorExited" xml:space="preserve">
+    <value>Tor the process is completed.</value>
+  </data>
+  <data name="ErrorLaunchTor" xml:space="preserve">
+    <value>Tor launch error:</value>
+  </data>
+  <data name="TorKilled" xml:space="preserve">
+    <value>Tor is completed.</value>
+  </data>
+  <data name="ErrorStopingTor" xml:space="preserve">
+    <value>The error of stopping Tor</value>
+  </data>
+  <data name="ByPass" xml:space="preserve">
+    <value>By password</value>
+  </data>
+  <data name="ByCookie" xml:space="preserve">
+    <value>By cookie</value>
+  </data>
+  <data name="SuccessfullAuthenticationNoPass" xml:space="preserve">
+    <value>Authentication without a password was successful.</value>
+  </data>
+  <data name="ErrorAuthenticationNoPass" xml:space="preserve">
+    <value>Authentication error without password:</value>
+  </data>
+  <data name="ErrorConnecting" xml:space="preserve">
+    <value>Connection error:</value>
+  </data>
+  <data name="ClosedConnectionTor" xml:space="preserve">
+    <value>The connection with Tor is closed.</value>
+  </data>
+  <data name="ErrorDisconnect" xml:space="preserve">
+    <value>Backage Error: {0}</value>
+  </data>
+  <data name="SuccessfullAuthentication" xml:space="preserve">
+    <value>Authentication {0} was successful.</value>
+  </data>
+  <data name="ErrorAuthenticationMetodResponse" xml:space="preserve">
+    <value>Authentication error {0}: {1}</value>
+  </data>
+  <data name="ErrorAuthenticationMetod" xml:space="preserve">
+    <value>Authentication error {0}</value>
+  </data>
+  <data name="ErrorLaunchCommand" xml:space="preserve">
+    <value>Error when performing a command: {0}</value>
+  </data>
+  <data name="ReadedBytes" xml:space="preserve">
+    <value>Read {0} byte: {1}</value>
+  </data>
+  <data name="NotFoundTorProcess" xml:space="preserve">
+    <value>The Tor process was not found.</value>
+  </data>
+  <data name="FoundControlPortInArguments" xml:space="preserve">
+    <value>Found ControlPort in the launch arguments: {0}</value>
+  </data>
+  <data name="FoundDataDirectoryInArguments" xml:space="preserve">
+    <value>Found DataDirectory in launch arguments: {0}</value>
+  </data>
+  <data name="FoundListenPort" xml:space="preserve">
+    <value>Found the listener of the port: {0}</value>
+  </data>
+  <data name="Foundcontrol_auth_cookie" xml:space="preserve">
+    <value>Found Control_auth_cookie: {0}</value>
+  </data>
+  <data name="NotFoundControl_auth_cookie" xml:space="preserve">
+    <value>Control_auth_cookie file was not found.</value>
+  </data>
+  <data name="ControlPortFromTorrc" xml:space="preserve">
+    <value>Controlport from Torrc: {0}</value>
+  </data>
+  <data name="ErrorAnalysetorrc" xml:space="preserve">
+    <value>Error in analyzing the torrc file: {0}</value>
+  </data>
+  <data name="NotFoundtorrc" xml:space="preserve">
+    <value>Torrc file was not found. The default port is used.</value>
+  </data>
+  <data name="ConfirmedControlPort" xml:space="preserve">
+    <value>Confirmed ControlPort: {0}</value>
+  </data>
+  <data name="NotConfirmedControlPort" xml:space="preserve">
+    <value>ControlPort is not confirmed among the listening ports.</value>
+  </data>
+  <data name="DifferentsInDataDirectory" xml:space="preserve">
+    <value>Different values of DataDirectory from different sources were found.</value>
+  </data>
+  <data name="ConfirmedDataDirectory" xml:space="preserve">
+    <value>Confirmed DataDirectory {0}</value>
+  </data>
+  <data name="ErrorGrabbingTorInfo" xml:space="preserve">
+    <value>Error when collecting information about the Tor process: {0} 
+ {1}</value>
+  </data>
+  <data name="Answer" xml:space="preserve">
+    <value>Answer:</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Connect?</value>
+  </data>
+  <data name="CookieFilter" xml:space="preserve">
+    <value>CookieFile (control_auth_cookie)|control_auth_cookie| All files (*.*) |*.*</value>
+  </data>
+  <data name="CookieTitle" xml:space="preserve">
+    <value>Find and choose Control_auth_cookie File</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error:</value>
+  </data>
+  <data name="Error2" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorChoise" xml:space="preserve">
+    <value>Choice error</value>
+  </data>
+  <data name="ErrorClose" xml:space="preserve">
+    <value>Error when closing the application: {0}</value>
+  </data>
+  <data name="ErrorCloseCl" xml:space="preserve">
+    <value>Error when closing the application: {0}
+ Close?</value>
+  </data>
+  <data name="FileWrong" xml:space="preserve">
+    <value>The file is chosen not true</value>
+  </data>
+  <data name="FoundRunningTor" xml:space="preserve">
+    <value>Found a neglected Tor
+Try to connect?</value>
+  </data>
+  <data name="SetPort" xml:space="preserve">
+    <value>The control port is changed to: {0}</value>
+  </data>
+  <data name="TorBoxFilter" xml:space="preserve">
+    <value>App (*.exe)|*.exe|All files (*.*) |*.*</value>
+  </data>
+  <data name="TorBoxTitle" xml:space="preserve">
+    <value>Find and choose a tor.exe file</value>
+  </data>
+  <data name="TorDisconnected" xml:space="preserve">
+    <value>Tor is disabled</value>
+  </data>
+  <data name="TorNotRunning" xml:space="preserve">
+    <value>Tor is not launched</value>
+  </data>
+  <data name="TorNotStarted" xml:space="preserve">
+    <value>Tor did not start.</value>
+  </data>
+  <data name="TorStarted" xml:space="preserve">
+    <value>Tor started.</value>
+  </data>
+  <data name="TorStartedAndConnected" xml:space="preserve">
+    <value>Tor is launched and connected.</value>
+  </data>
+</root>
